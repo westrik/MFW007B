@@ -399,7 +399,7 @@
   },
   "sheets": [
     [
-      "9184973c-22bc-4565-867e-e7db628f0926",
+      "925e2a4e-047b-41ed-83cf-6ccd418e8b10",
       ""
     ],
     [
@@ -409,6 +409,10 @@
     [
       "bde403a7-2671-4cf7-bb70-66aecfe313f9",
       "MCU"
+    ],
+    [
+      "3216bbc1-4ef8-49ee-bf91-131ed8e95600",
+      "Power-over-Ethernet Conversion"
     ]
   ],
   "text_variables": {}
