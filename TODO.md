@@ -1,6 +1,6 @@
-- [ ] set up STM32
-- [ ] set up W5500
-- [ ] hook up LEDs + switches
+- [x] set up STM32
+- [x] set up W5500
+- [x] set up TPS23753A
 - [ ] replace 0603 with 0402 basic (where possible)
-- [ ] set up TPS23753A
+- [ ] hook up LEDs + switches
 - [ ] route everything
