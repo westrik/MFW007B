@@ -60,8 +60,8 @@
       37,
       38
     ],
-    "visible_layers": "002f0ec_80000007",
-    "zone_display_mode": 0
+    "visible_layers": "002f0fc_80000007",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "MFW007B.kicad_prl",
