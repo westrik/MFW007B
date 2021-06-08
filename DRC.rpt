@@ -1,0 +1,64 @@
+** Drc report for /Users/matt/_/src/MFW007B/MFW007B.kicad_pcb **
+** Created on 2021-06-08 02:46:01 **
+
+** Found 10 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1142 mm) Severity: error
+    @(142.6000 mm, 100.8000 mm): Via [GND] on Front - Back
+    @(142.6000 mm, 101.6000 mm): Via [+3V3] on Front - Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1142 mm) Severity: error
+    @(143.6000 mm, 101.6000 mm): Via [+3V3] on Front - Back
+    @(143.6000 mm, 100.8000 mm): Via [GND] on Front - Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1142 mm) Severity: error
+    @(144.6000 mm, 100.8000 mm): Via [GND] on Front - Back
+    @(144.6000 mm, 101.6000 mm): Via [+3V3] on Front - Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1142 mm) Severity: error
+    @(145.6000 mm, 100.8000 mm): Via [GND] on Front - Back
+    @(145.6000 mm, 101.6000 mm): Via [+3V3] on Front - Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0571 mm) Severity: error
+    @(106.4000 mm, 118.6000 mm): Via [GND] on Front - Back
+    @(0.2500 mm, -0.3000 mm): Polygon on Front
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0571 mm) Severity: error
+    @(106.2500 mm, 119.9000 mm): Via [/STLEDGND] on Front - Back
+    @(0.2500 mm, -0.3000 mm): Polygon on Front
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm) Severity: error
+    @(102.5000 mm, 119.9000 mm): Pad 1 of JP1 on Front
+    @(0.2500 mm, -0.3000 mm): Polygon on Front
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm) Severity: error
+    @(102.5000 mm, 118.6000 mm): Pad 2 of JP1 on Front
+    @(0.2500 mm, -0.3000 mm): Polygon on Front
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm) Severity: error
+    @(106.2500 mm, 119.9000 mm): Pad 1 of JP2 on Front
+    @(0.2500 mm, -0.3000 mm): Polygon on Front
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0000 mm) Severity: error
+    @(106.2500 mm, 118.6000 mm): Pad 2 of JP2 on Front
+    @(0.2500 mm, -0.3000 mm): Polygon on Front
+
+** Found 3 unconnected pads **
+[unconnected_items]: Unconnected items Severity: error
+    @(123.4000 mm, 114.3625 mm): Pad 16 of U2 on Front
+    @(124.9000 mm, 114.3625 mm): Track [GND] on Front, length 1.2625 mm
+[unconnected_items]: Unconnected items Severity: error
+    @(123.9000 mm, 114.3625 mm): Track [+3V3] on Front, length 1.2753 mm
+    @(125.9000 mm, 114.3625 mm): Pad 21 of U2 on Front
+[unconnected_items]: Unconnected items Severity: error
+    @(123.7500 mm, 116.4000 mm): Pad 1 of C16 on Front
+    @(123.9000 mm, 114.3625 mm): Track [+3V3] on Front, length 1.2753 mm
+
+** Found 8 Footprint errors **
+[net_conflict]: Pad net (Net-(JIO1-PadA4)) doesn't match net given by schematic (Net-(D4-Pad2)). Severity: warning
+    @(99.3500 mm, 85.5000 mm): Pad 2 of D4 on Front
+[net_conflict]: Pad net (Net-(JIO1-PadA4)) doesn't match net given by schematic (Net-(D4-Pad2)). Severity: warning
+    @(97.3037 mm, 88.5037 mm): Through hole pad A4 of JIO1
+[net_conflict]: Pad net (Net-(JIO1-PadA4)) doesn't match net given by schematic (Net-(D4-Pad2)). Severity: warning
+    @(97.3037 mm, 92.7537 mm): Through hole pad A9 of JIO1
+[net_conflict]: Pad net (Net-(JIO1-PadA4)) doesn't match net given by schematic (Net-(D4-Pad2)). Severity: warning
+    @(95.9537 mm, 92.7537 mm): Through hole pad B4 of JIO1
+[net_conflict]: Pad net (Net-(JIO1-PadA4)) doesn't match net given by schematic (Net-(D4-Pad2)). Severity: warning
+    @(95.9537 mm, 88.5037 mm): Through hole pad B9 of JIO1
+[missing_footprint]: Missing footprint SW1 (SW_Push) Severity: warning
+[extra_footprint]: Extra footprint Severity: warning
+    @(162.5000 mm, 82.2000 mm): Footprint RESET
+[extra_footprint]: Extra footprint Severity: warning
+    @(144.6000 mm, 97.9500 mm): Footprint G***
+
+** End of Report **
