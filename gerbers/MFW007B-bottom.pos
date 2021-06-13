@@ -1,0 +1,7 @@
+### Module positions - created on Sunday, June 13, 2021 at 03:32:23 PM ###
+### Printed by Pcbnew version (5.99.0-8454-g713af6630f)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+G***      LOGO      na01-doodle       -144.6000   -97.9500  180.0000  bottom
+## End
